@@ -1,0 +1,180 @@
+{
+  "uid" : "7c51a3b4f56433d5",
+  "name" : "enterKeyLogin",
+  "fullName" : "com.saucedemo.test.LoginPageTests.enterKeyLogin",
+  "historyId" : "3d6b32bb7658fe0a994360bc1752fe7d",
+  "time" : {
+    "start" : 1626565257687,
+    "stop" : 1626565258298,
+    "duration" : 611
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1626565256230,
+      "stop" : 1626565257432,
+      "duration" : 1202
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1626565257433,
+      "stop" : 1626565257686,
+      "duration" : 253
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "loginWithEnterKey",
+      "time" : {
+        "start" : 1626565257688,
+        "stop" : 1626565258149,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fillInUserName",
+        "time" : {
+          "start" : 1626565257688,
+          "stop" : 1626565257836,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "standard_user"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "fillInPassword",
+        "time" : {
+          "start" : 1626565257836,
+          "stop" : 1626565257982,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "secret_sauce"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "standard_user"
+      }, {
+        "name" : "password",
+        "value" : "secret_sauce"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1626565258300,
+      "stop" : 1626565258948,
+      "duration" : 648
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "enterKeyLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests for Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-440QGB7"
+  }, {
+    "name" : "thread",
+    "value" : "7020@DESKTOP-440QGB7.TestNG-test=Login Tests for Chrome-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c51a3b4f56433d5.json",
+  "parameterValues" : [ "chrome" ]
+}

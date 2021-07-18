@@ -1,0 +1,301 @@
+[ {
+  "uid" : "a67fa1658cb660d9",
+  "name" : "emptyCredentialError",
+  "time" : {
+    "start" : 1626565252517,
+    "stop" : 1626565253004,
+    "duration" : 487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a253076bcd2e4d1",
+  "name" : "emptyCredentialError",
+  "time" : {
+    "start" : 1626565302026,
+    "stop" : 1626565302630,
+    "duration" : 604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c51a3b4f56433d5",
+  "name" : "enterKeyLogin",
+  "time" : {
+    "start" : 1626565257687,
+    "stop" : 1626565258298,
+    "duration" : 611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "842112844bc87915",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565260387,
+    "stop" : 1626565260919,
+    "duration" : 532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bdb56a2d2997a97",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1626565287674,
+    "stop" : 1626565288181,
+    "duration" : 507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea2e3361851d7301",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565274932,
+    "stop" : 1626565275449,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "482cdcf1d57c81d9",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1626565361086,
+    "stop" : 1626565361642,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2eb2bfef42c5510",
+  "name" : "emptyCredentialError",
+  "time" : {
+    "start" : 1626565306579,
+    "stop" : 1626565307202,
+    "duration" : 623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7590163c71923cad",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1626565290823,
+    "stop" : 1626565296286,
+    "duration" : 5463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c88cee26c024071a",
+  "name" : "emptyCredentialError",
+  "time" : {
+    "start" : 1626565311118,
+    "stop" : 1626565311750,
+    "duration" : 632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c97f2dc8306c755",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565268511,
+    "stop" : 1626565269057,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fcbe9ed81da93eb",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565329066,
+    "stop" : 1626565329653,
+    "duration" : 587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57ec6dd2b9654ab3",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1626565284355,
+    "stop" : 1626565284928,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4a9e7d3d29aed8",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565271751,
+    "stop" : 1626565272305,
+    "duration" : 554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5292d3eac3f103f",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565319936,
+    "stop" : 1626565320541,
+    "duration" : 605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e3fb4e005a85069",
+  "name" : "emptyCredentialError",
+  "time" : {
+    "start" : 1626565255116,
+    "stop" : 1626565255593,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1302aec9dae340a8",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565338020,
+    "stop" : 1626565338626,
+    "duration" : 606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee95a5e6f2dda8f9",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1626565365472,
+    "stop" : 1626565371034,
+    "duration" : 5562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d33f2a55f009dc79",
+  "name" : "refreshWithClearedCookie",
+  "time" : {
+    "start" : 1626565277535,
+    "stop" : 1626565278265,
+    "duration" : 730
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc83156e8d18919d",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565263065,
+    "stop" : 1626565263598,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35d929fef3427acb",
+  "name" : "emptyCredentialError",
+  "time" : {
+    "start" : 1626565249760,
+    "stop" : 1626565250350,
+    "duration" : 590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a397ac4ecd8bc91d",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565324548,
+    "stop" : 1626565325148,
+    "duration" : 600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5620efc65234154b",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565342611,
+    "stop" : 1626565343239,
+    "duration" : 628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f27c3c878c3f3500",
+  "name" : "reloginWithClearedCookie",
+  "time" : {
+    "start" : 1626565280690,
+    "stop" : 1626565281451,
+    "duration" : 761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "251f3b91a9f1bd1a",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1626565356592,
+    "stop" : 1626565357208,
+    "duration" : 616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2122d2f9154cb4a",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565333518,
+    "stop" : 1626565334097,
+    "duration" : 579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edaefb21b549b7ac",
+  "name" : "reloginWithClearedCookie",
+  "time" : {
+    "start" : 1626565351784,
+    "stop" : 1626565352501,
+    "duration" : 717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1969307a83fbac58",
+  "name" : "refreshWithClearedCookie",
+  "time" : {
+    "start" : 1626565347171,
+    "stop" : 1626565347919,
+    "duration" : 748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4229c13cd693fcf1",
+  "name" : "enterKeyLogin",
+  "time" : {
+    "start" : 1626565315644,
+    "stop" : 1626565315945,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2a7115365645815",
+  "name" : "invalidUsernameOrPassword",
+  "time" : {
+    "start" : 1626565265822,
+    "stop" : 1626565266340,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,219 @@
+{
+  "uid" : "842112844bc87915",
+  "name" : "invalidUsernameOrPassword",
+  "fullName" : "com.saucedemo.test.LoginPageTests.invalidUsernameOrPassword",
+  "historyId" : "48d9ae4198e7bbe070c27e99687335ea",
+  "time" : {
+    "start" : 1626565260387,
+    "stop" : 1626565260919,
+    "duration" : 532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1626565258948,
+      "stop" : 1626565260143,
+      "duration" : 1195
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1626565260145,
+      "stop" : 1626565260385,
+      "duration" : 240
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1626565260387,
+        "stop" : 1626565260831,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fillInUserName",
+        "time" : {
+          "start" : 1626565260387,
+          "stop" : 1626565260538,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "standard_user"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "fillInPassword",
+        "time" : {
+          "start" : 1626565260538,
+          "stop" : 1626565260729,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "<script>alert(\\\"XSS!\\\")</script>;"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "standard_user"
+      }, {
+        "name" : "password",
+        "value" : "<script>alert(\\\"XSS!\\\")</script>;"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "validateErrorMessage",
+      "time" : {
+        "start" : 1626565260831,
+        "stop" : 1626565260919,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getErrorMessage",
+        "time" : {
+          "start" : 1626565260885,
+          "stop" : 1626565260919,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedErrorMessage",
+        "value" : "Epic sadface: Username and password do not match any user in this service"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1626565260920,
+      "stop" : 1626565261563,
+      "duration" : 643
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidUsernameOrPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests for Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-440QGB7"
+  }, {
+    "name" : "thread",
+    "value" : "7020@DESKTOP-440QGB7.TestNG-test=Login Tests for Chrome-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "standard_user"
+  }, {
+    "name" : "arg1",
+    "value" : "<script>alert(\\\"XSS!\\\")</script>;"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "842112844bc87915.json",
+  "parameterValues" : [ "standard_user", "<script>alert(\\\"XSS!\\\")</script>;", "chrome" ]
+}

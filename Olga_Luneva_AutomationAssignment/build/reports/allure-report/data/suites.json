@@ -1,0 +1,415 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "UI Test Suite",
+    "children" : [ {
+      "name" : "Login Tests for Chrome",
+      "children" : [ {
+        "name" : "com.saucedemo.test.LoginPageTests",
+        "children" : [ {
+          "name" : "emptyCredentialError",
+          "uid" : "35d929fef3427acb",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565249760,
+            "stop" : 1626565250350,
+            "duration" : 590
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "", "Epic sadface: Username is required", "chrome" ]
+        }, {
+          "name" : "emptyCredentialError",
+          "uid" : "a67fa1658cb660d9",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565252517,
+            "stop" : 1626565253004,
+            "duration" : 487
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "problem_user", "", "Epic sadface: Password is required", "chrome" ]
+        }, {
+          "name" : "emptyCredentialError",
+          "uid" : "1e3fb4e005a85069",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565255116,
+            "stop" : 1626565255593,
+            "duration" : 477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "secret_sauce", "Epic sadface: Username is required", "chrome" ]
+        }, {
+          "name" : "enterKeyLogin",
+          "uid" : "7c51a3b4f56433d5",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565257687,
+            "stop" : 1626565258298,
+            "duration" : 611
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "842112844bc87915",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565260387,
+            "stop" : 1626565260919,
+            "duration" : 532
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "<script>alert(\\\"XSS!\\\")</script>;", "chrome" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "cc83156e8d18919d",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565263065,
+            "stop" : 1626565263598,
+            "duration" : 533
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "<script>alert(\\\"XSS!\\\")</script>;@gmail.com", "secret_sauce", "chrome" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "f2a7115365645815",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565265822,
+            "stop" : 1626565266340,
+            "duration" : 518
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "secret_saucesecret_sauce", "chrome" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "7c97f2dc8306c755",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565268511,
+            "stop" : 1626565269057,
+            "duration" : 546
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "locked_out_user locked_out_user", "secret_sauce", "chrome" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "f4a9e7d3d29aed8",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565271751,
+            "stop" : 1626565272305,
+            "duration" : 554
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "problem_user + problem_user", "secret_sauce", "chrome" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "ea2e3361851d7301",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565274932,
+            "stop" : 1626565275449,
+            "duration" : 517
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "performance_glitch_user", "secret_sauce secret_sauce", "chrome" ]
+        }, {
+          "name" : "refreshWithClearedCookie",
+          "uid" : "d33f2a55f009dc79",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565277535,
+            "stop" : 1626565278265,
+            "duration" : 730
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        }, {
+          "name" : "reloginWithClearedCookie",
+          "uid" : "f27c3c878c3f3500",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565280690,
+            "stop" : 1626565281451,
+            "duration" : 761
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        }, {
+          "name" : "successfulLogin",
+          "uid" : "57ec6dd2b9654ab3",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565284355,
+            "stop" : 1626565284928,
+            "duration" : 573
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "chrome" ]
+        }, {
+          "name" : "successfulLogin",
+          "uid" : "3bdb56a2d2997a97",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565287674,
+            "stop" : 1626565288181,
+            "duration" : 507
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "problem_user", "chrome" ]
+        }, {
+          "name" : "successfulLogin",
+          "uid" : "7590163c71923cad",
+          "parentUid" : "75f5b069376251b7075afa139019e1e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565290823,
+            "stop" : 1626565296286,
+            "duration" : 5463
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "performance_glitch_user", "chrome" ]
+        } ],
+        "uid" : "75f5b069376251b7075afa139019e1e2"
+      } ],
+      "uid" : "1315a332470dce29d31e7d30bc593d5e"
+    }, {
+      "name" : "Login Tests for Firefox",
+      "children" : [ {
+        "name" : "com.saucedemo.test.LoginPageTests",
+        "children" : [ {
+          "name" : "emptyCredentialError",
+          "uid" : "2a253076bcd2e4d1",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565302026,
+            "stop" : 1626565302630,
+            "duration" : 604
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "", "Epic sadface: Username is required", "firefox" ]
+        }, {
+          "name" : "emptyCredentialError",
+          "uid" : "c2eb2bfef42c5510",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565306579,
+            "stop" : 1626565307202,
+            "duration" : 623
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "problem_user", "", "Epic sadface: Password is required", "firefox" ]
+        }, {
+          "name" : "emptyCredentialError",
+          "uid" : "c88cee26c024071a",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565311118,
+            "stop" : 1626565311750,
+            "duration" : 632
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "secret_sauce", "Epic sadface: Username is required", "firefox" ]
+        }, {
+          "name" : "enterKeyLogin",
+          "uid" : "4229c13cd693fcf1",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565315644,
+            "stop" : 1626565315945,
+            "duration" : 301
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "firefox" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "5292d3eac3f103f",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565319936,
+            "stop" : 1626565320541,
+            "duration" : 605
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "<script>alert(\\\"XSS!\\\")</script>;", "firefox" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "a397ac4ecd8bc91d",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565324548,
+            "stop" : 1626565325148,
+            "duration" : 600
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "<script>alert(\\\"XSS!\\\")</script>;@gmail.com", "secret_sauce", "firefox" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "7fcbe9ed81da93eb",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565329066,
+            "stop" : 1626565329653,
+            "duration" : 587
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "secret_saucesecret_sauce", "firefox" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "a2122d2f9154cb4a",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565333518,
+            "stop" : 1626565334097,
+            "duration" : 579
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "locked_out_user locked_out_user", "secret_sauce", "firefox" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "1302aec9dae340a8",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565338020,
+            "stop" : 1626565338626,
+            "duration" : 606
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "problem_user + problem_user", "secret_sauce", "firefox" ]
+        }, {
+          "name" : "invalidUsernameOrPassword",
+          "uid" : "5620efc65234154b",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565342611,
+            "stop" : 1626565343239,
+            "duration" : 628
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "performance_glitch_user", "secret_sauce secret_sauce", "firefox" ]
+        }, {
+          "name" : "refreshWithClearedCookie",
+          "uid" : "1969307a83fbac58",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565347171,
+            "stop" : 1626565347919,
+            "duration" : 748
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "firefox" ]
+        }, {
+          "name" : "reloginWithClearedCookie",
+          "uid" : "edaefb21b549b7ac",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565351784,
+            "stop" : 1626565352501,
+            "duration" : 717
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "firefox" ]
+        }, {
+          "name" : "successfulLogin",
+          "uid" : "251f3b91a9f1bd1a",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565356592,
+            "stop" : 1626565357208,
+            "duration" : 616
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "firefox" ]
+        }, {
+          "name" : "successfulLogin",
+          "uid" : "482cdcf1d57c81d9",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565361086,
+            "stop" : 1626565361642,
+            "duration" : 556
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "problem_user", "firefox" ]
+        }, {
+          "name" : "successfulLogin",
+          "uid" : "ee95a5e6f2dda8f9",
+          "parentUid" : "3633cf9dd6d25306ad8f9edd0165b811",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626565365472,
+            "stop" : 1626565371034,
+            "duration" : 5562
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "performance_glitch_user", "firefox" ]
+        } ],
+        "uid" : "3633cf9dd6d25306ad8f9edd0165b811"
+      } ],
+      "uid" : "67bdd07a01da6a7889f17e278c0cb091"
+    } ],
+    "uid" : "b0c1bc0a0453061a2ffe111ff677f308"
+  } ]
+}

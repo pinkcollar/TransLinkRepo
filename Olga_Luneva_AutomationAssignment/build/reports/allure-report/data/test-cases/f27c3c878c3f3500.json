@@ -1,0 +1,195 @@
+{
+  "uid" : "f27c3c878c3f3500",
+  "name" : "reloginWithClearedCookie",
+  "fullName" : "com.saucedemo.test.LoginPageTests.reloginWithClearedCookie",
+  "historyId" : "be80fc0e7961f8262b1749bdf69bfc6a",
+  "time" : {
+    "start" : 1626565280690,
+    "stop" : 1626565281451,
+    "duration" : 761
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupClass",
+    "time" : {
+      "start" : 1626565280237,
+      "stop" : 1626565280688,
+      "duration" : 451
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1626565278975,
+      "stop" : 1626565280236,
+      "duration" : 1261
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1626565280690,
+        "stop" : 1626565281151,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fillInUserName",
+        "time" : {
+          "start" : 1626565280690,
+          "stop" : 1626565280854,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "standard_user"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "fillInPassword",
+        "time" : {
+          "start" : 1626565280854,
+          "stop" : 1626565281008,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "secret_sauce"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "standard_user"
+      }, {
+        "name" : "password",
+        "value" : "secret_sauce"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "getErrorMessage",
+      "time" : {
+        "start" : 1626565281407,
+        "stop" : 1626565281451,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1626565281452,
+      "stop" : 1626565282876,
+      "duration" : 1424
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "reloginWithClearedCookie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests for Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.saucedemo.test.LoginPageTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-440QGB7"
+  }, {
+    "name" : "thread",
+    "value" : "7020@DESKTOP-440QGB7.TestNG-test=Login Tests for Chrome-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f27c3c878c3f3500.json",
+  "parameterValues" : [ "chrome" ]
+}
